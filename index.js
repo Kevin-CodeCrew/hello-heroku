@@ -20,7 +20,7 @@ let api = require('./routes/api.js');
 app.use('/api', api);
 
 // Start listening for requests
-let portNumber = 8000;
+let port = 8000;
 app.listen(portNumber, () => {
-    console.log(`Listening on port ${portNumber}...`);
+    console.log(`Listening on port ${port}...`);
 });
