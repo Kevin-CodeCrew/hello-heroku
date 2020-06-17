@@ -119,6 +119,6 @@ router.delete('/student/:email', (req, res) => {
         else res.send(results);
     });
 });
-(
+
 // export router
 module.exports = router;
