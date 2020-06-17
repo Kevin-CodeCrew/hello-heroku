@@ -21,6 +21,6 @@ app.use('/api', api);
 
 // Start listening for requests
 let port = 8000;
-app.listen(portNumber, () => {
+app.listen(port, () => {
     console.log(`Listening on port ${port}...`);
 });
